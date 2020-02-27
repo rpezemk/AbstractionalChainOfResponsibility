@@ -41,8 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractHandler.cs" />
+    <Compile Include="AbstractProblem.cs" />
+    <Compile Include="IHandler.cs" />
+    <Compile Include="IHandleResult.cs" />
+    <Compile Include="IProblem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Result.cs" />
+    <Compile Include="TypeFourProblem.cs" />
+    <Compile Include="TypeOneHandler.cs" />
+    <Compile Include="TypeOneProblem.cs" />
+    <Compile Include="TypeThreeHandler.cs" />
+    <Compile Include="TypeThreeProblem.cs" />
+    <Compile Include="TypeTwoHandler.cs" />
+    <Compile Include="TypeTwoProblem.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
