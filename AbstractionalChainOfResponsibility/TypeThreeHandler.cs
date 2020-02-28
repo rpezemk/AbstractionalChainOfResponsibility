@@ -2,7 +2,7 @@
 {
     class TypeThreeHandler : AbstractHandler
     {
-        public override Result Handle(IProblem problem)
+        public override IHandleResult Handle(IProblem problem)
         {
             if (problem is TypeThreeProblem)
             {

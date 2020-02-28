@@ -3,7 +3,7 @@
     public interface IHandler
     {
         IHandler SetNext(IHandler handler);
-        Result Handle(IProblem problem);
+        IHandleResult Handle(IProblem problem);
     }
 
 }

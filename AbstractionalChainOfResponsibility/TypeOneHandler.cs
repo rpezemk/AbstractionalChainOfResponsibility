@@ -2,11 +2,11 @@
 {
     class TypeOneHandler : AbstractHandler
     {
-        public override Result Handle(IProblem problem)
+        public override IHandleResult Handle(IProblem problem)
         {
             if (problem is TypeOneProblem)
             {
-                return new Result() { Description = $"TypeOneHandler managed {problem.GetDescription()}" };
+                return new ResultTypeOne() { Description = $"TypeOneHandler managed {problem.GetDescription()}" };
             }
             else
             {

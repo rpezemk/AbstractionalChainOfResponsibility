@@ -8,7 +8,7 @@
             this._nextHandler = handler;
             return handler;
         }
-        public virtual Result Handle(IProblem problem)
+        public virtual IHandleResult Handle(IProblem problem)
         {
             if (this._nextHandler != null)
             {

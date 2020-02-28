@@ -3,14 +3,13 @@
     public class Result : IHandleResult
     {
         public string Description;
-        public string GetDescription()
+        public virtual string GetDescription()
         {
             return this.Description;
         }
-        public void SetDescription(string description)
+        public virtual void SetDescription(string description)
         {
             this.Description = description;
         }
     }
-
 }
